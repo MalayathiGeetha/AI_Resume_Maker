@@ -29,6 +29,8 @@ const GenerateResume = () => {
   const [showFormUI, setShowFormUI] = useState(false);
   const [showResumeUI, setShowResumeUI] = useState(false);
   const [showPromptInput, setShowPromptInput] = useState(true);
+  const [selectedTemplate, setSelectedTemplate] = useState("template1");
+
 
   const experienceFields = useFieldArray({ control, name: "experience" });
   const educationFields = useFieldArray({ control, name: "education" });
@@ -60,7 +62,8 @@ const GenerateResume = () => {
 
     try {
       setLoading(true);
-      const responseData = await generateResume(description);
+      const responseData = await generateResume(description, selectedTemplate);
+
       console.log(responseData);
       reset(responseData.data);
 
@@ -216,6 +219,8 @@ const GenerateResume = () => {
       </div>
     );
   }
+  
+  
 
   function ShowInputField() {
     return (
@@ -227,6 +232,46 @@ const GenerateResume = () => {
           Enter a detailed description about yourself to generate your
           professional resume.
         </p>
+        <div className="mt-4 mb-6">
+		  <h3 className="text-xl font-semibold mb-2">Choose Resume Template</h3>
+
+		  <div className="flex justify-center gap-6 text-lg">
+
+		    <label className="cursor-pointer">
+		      <input
+		        type="radio"
+		        name="template"
+		        value="template1"
+		        checked={selectedTemplate === "template1"}
+		        onChange={(e) => setSelectedTemplate(e.target.value)}
+		      />
+		      <span className="ml-2">ATS Friendly</span>
+		    </label>
+
+		    <label className="cursor-pointer">
+		      <input
+		        type="radio"
+		        name="template"
+		        value="template2"
+		        checked={selectedTemplate === "template2"}
+		        onChange={(e) => setSelectedTemplate(e.target.value)}
+		      />
+		      <span className="ml-2">Modern</span>
+		    </label>
+
+		    <label className="cursor-pointer">
+		      <input
+		        type="radio"
+		        name="template"
+		        value="template3"
+		        checked={selectedTemplate === "template3"}
+		        onChange={(e) => setSelectedTemplate(e.target.value)}
+		      />
+		      <span className="ml-2">Professional</span>
+		    </label>
+		  </div>
+		</div>
+
         <textarea
           disabled={loading}
           className="textarea textarea-bordered w-full h-48 mb-6 resize-none"
@@ -257,7 +302,8 @@ const GenerateResume = () => {
   function showResume() {
     return (
       <div>
-        <Resume data={data} />
+        <Resume data={data} template={selectedTemplate} />
+
 
         <div className="flex mt-5 justify-center gap-2">
           <div

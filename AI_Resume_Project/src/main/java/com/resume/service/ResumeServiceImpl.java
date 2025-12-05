@@ -3,6 +3,7 @@ package com.resume.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.prompt.Prompt;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -18,23 +19,33 @@ public class ResumeServiceImpl implements ResumeService {
     private final ChatClient chatClient;
 
     public ResumeServiceImpl(ChatClient.Builder builder) {
-        this.chatClient = builder.build();
+
+        // CORRECT APPROACH FOR SPRING AI 1.1.0
+        OpenAiChatOptions options = OpenAiChatOptions.builder()
+                .model("llama-3.3-70b-versatile")
+                .temperature(0.3)
+                .build();
+
+        this.chatClient = builder
+                .defaultOptions(options)
+                .build();
     }
 
     @Override
-    public Map<String, Object> generateResumeResponse(String userResumeDescription) throws IOException {
+    public Map<String, Object> generateResumeResponse(String userDescription, String template) throws IOException {
 
-        // Load prompt template file
-        String template = loadPromptFromFile("resume_prompt.txt");
+        String basePrompt = loadPromptFromFile("resume_prompt.txt");
+        String templateInstruction = getTemplateInstruction(template);
 
-        // Replace {{userDescription}} in template
-        String promptContent = template.replace("{{userDescription}}", userResumeDescription);
+        String finalPrompt = basePrompt
+                .replace("{{userDescription}}", userDescription)
+                .replace("{{templateInstruction}}", templateInstruction);
 
-        // Create Prompt
-        Prompt prompt = new Prompt(promptContent);
+        Prompt prompt = new Prompt(finalPrompt);
 
-        // NEW Spring AI 1.0.0-M1 output format
-        String responseText = chatClient.prompt(prompt)
+        // Call AI
+        String responseText = chatClient
+                .prompt(prompt)
                 .call()
                 .content();
 
@@ -46,10 +57,17 @@ public class ResumeServiceImpl implements ResumeService {
         return Files.readString(path);
     }
 
+    private String getTemplateInstruction(String template) {
+        return switch (template) {
+            case "template2" -> "Use a stylish modern layout with bold headings.";
+            case "template3" -> "Use a formal traditional layout with serif fonts.";
+            default -> "Use ATS-friendly minimal formatting.";
+        };
+    }
+
     public static Map<String, Object> parseMultipleResponses(String response) {
         Map<String, Object> jsonResponse = new HashMap<>();
 
-        // Remove everything before the first {
         int jsonStart = response.indexOf("{");
         int jsonEnd = response.lastIndexOf("}") + 1;
 

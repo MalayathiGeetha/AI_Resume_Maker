@@ -1,6 +1,6 @@
 package com.resume.controller;
 
-import com.resume.ResumeRequest;
+import com.resume.dto.ResumeRequest;
 import com.resume.service.ResumeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +26,7 @@ public class ResumeController {
             @RequestBody ResumeRequest resumeRequest
     ) throws IOException {
 
-        Map<String, Object> stringObjectMap = resumeService.generateResumeResponse(resumeRequest.userDescription());
+        Map<String, Object> stringObjectMap = resumeService.generateResumeResponse(resumeRequest.getUserDescription(),resumeRequest.getTemplate());
         return new ResponseEntity<>(stringObjectMap, HttpStatus.OK);
 
     }
