@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f6fac52-b5ab-4339-ae57-4755d5ea4892" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/controller/ChatbotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/dto/CoinDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/dto/PromptBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/response/FunctionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/service/ChatbotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatbot/chatbot/src/main/java/com/example/service/ChatbotServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/controller/ClerkWebhookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/document/ProfileDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/document/UserCredits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/dto/ProfileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/repository/ProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/repository/UserCreditsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/security/ClerkJwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/security/ClerkJwtsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/service/ProfileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-share/cloudshare_backend/src/main/java/com/cloudshare/service/UserCreditsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/AuthAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/jwt/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/configuration/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/configuration/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/configuration/JwtValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/BranchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/RefundController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/ShiftReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/domain/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/domain/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/domain/StoreStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/domain/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/BranchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/InventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/RefundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/ShiftReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/StoreMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/PaymentSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Refund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/ShiftReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/StoreContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/modal/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/BranchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/InventoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/RefundDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/ShiftReportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/StoreDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/payload/response/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/BranchRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/RefundRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/ShiftReportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/StoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/BranchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/RefundService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/ShiftReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/BranchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/CustomUserImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/ShiftReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POS_System/pos-system/src/main/java/com/geetha/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAI_AudioTranscribe/audio.transcribe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAI_AudioTranscribe/audio.transcribe/src/main/java/com/audio/transcribe/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAI_AudioTranscribe/audio.transcribe/src/main/java/com/audio/transcribe/TranscriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAI_AudioTranscribe/audio.transcribe/src/main/java/com/audio/transcribe/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringAI_AudioTranscribe/audio.transcribe/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/.idea/em-project-backend-code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/EmProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/controller/EmpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/entity/EmployeeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/services/EmployeeSerivce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/java/org/codingwallah/emproject/services/EmployeeSerivceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-backend-code/em-project/src/test/java/org/esharma/emproject/EmProjectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/components/AddEmployee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/components/EmployeeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/components/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/components/UpdateEmployee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/service/EmployeeService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Em/em-project-frontend-code/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/assets/images/parrall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/assets/images/room7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/assets/images/services-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/assets/images/services4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/admin/Admin.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/AuthProvider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/Logout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/Registration.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/auth/RequireAuth.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/BookingForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/BookingSuccess.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/BookingSummary.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/Bookings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/BookingsTable.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/Checkout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/booking/FindBooking.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/DateSlider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/HotelService.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/Parallax.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomCarousel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomFilter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomPaginator.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomSearch.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomSearchResult.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/common/RoomTypeSelector.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/home/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/layout/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/layout/MainHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/layout/NavBar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/AddRoom.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/EditRoom.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/ExistingRooms.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/Room.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/RoomCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/room/RoomListing.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/components/utils/ApiFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeSide-hotel-frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/LakesideHotelApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/InternalServerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/InvalidBookingRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/PhotoRetrievalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/RoleAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/exception/UserAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/model/BookedRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/repository/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/repository/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/response/BookingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/response/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/response/RoomResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/jwt/AuthTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/jwt/JwtAuthEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/jwt/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/user/HotelUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/security/user/HotelUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/IBookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/IRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/java/com/example/lakeside_hotel/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/lakeside_hotel/src/test/java/com/example/lakeside_hotel/LakesideHotelApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hotel/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/JobPortalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/JobPortalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/JobAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/JobAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/NotificationAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/NotificationAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/ProfileAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/ProfileAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/api/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ApplicantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ApplicantDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ApplicationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ApplicationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Certification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Certification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/JobDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/JobDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/JobStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/JobStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/LoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/NotificationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/NotificationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/NotificationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/NotificationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ProfileDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ProfileDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Applicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Applicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/OTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/exception/JobPortalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/exception/JobPortalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/JobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/JobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/OtpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/OtpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/ProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/ProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/NotificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/ProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/ProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/ProfileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/ProfileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/ErrorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/ExceptionControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/ExceptionControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/java/com/jobportal/utility/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/resources/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobPortal/Job Portal/Job-Portal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PitchPal/pitch-pal-idea-spark" beforeDir="false" afterPath="$PROJECT_DIR$/../PitchPal/pitch-pal-idea-spark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectManagement" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="36Mh8wcCkfZliZZlHlpiwV8mVgK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/rguktrkvalley/Downloads/My languages/FULLSTACK_PROJECTS/AI_BASED_RESUME/AI_Resume_Project"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f6fac52-b5ab-4339-ae57-4755d5ea4892" name="Changes" comment="" />
+      <created>1764822192350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764822192350</updated>
+    </task>
+    <servers />
+  </component>
+</project>
