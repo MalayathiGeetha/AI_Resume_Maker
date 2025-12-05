@@ -1,9 +1,9 @@
 
 # 🧠 AI-Based Resume Maker  
-**React + Spring Boot + Spring AI + Ollama + DeepSeek**
+**React + Spring Boot + Spring AI + Groq API**
 
 An AI-powered Resume Builder that dynamically generates ATS-friendly resume data in **JSON format** based on user prompts.  
-The backend uses **Spring Boot + Spring AI** integrated with **Ollama (local LLM)** and **DeepSeek API** for advanced resume generation.  
+The backend uses **Spring Boot + Spring AI** integrated with **GROQ API** for advanced resume generation.  
 The frontend is built with **React, Tailwind CSS, and DaisyUI** for a clean, modern UI.
 
 ---
@@ -12,7 +12,7 @@ The frontend is built with **React, Tailwind CSS, and DaisyUI** for a clean, mod
 
 ### 🔥 AI-Powered Resume Generation
 - User enters a prompt → Backend generates **structured resume JSON**
-- Uses **local Ollama model** (e.g., DeepSeek-R1 / Llama3) + **DeepSeek API**
+- Uses **Groq Model (llama versatile model)**
 - Highly optimized for ATS readability
 
 ### 📄 Resume Storage & Management
@@ -44,8 +44,7 @@ The frontend is built with **React, Tailwind CSS, and DaisyUI** for a clean, mod
 ### **Backend**
 - Spring Boot 3  
 - Spring AI  
-- Ollama Integration  
-- DeepSeek API  
+- Groq API
 - Spring Data JPA  
 - PostgreSQL / MySQL  
 
