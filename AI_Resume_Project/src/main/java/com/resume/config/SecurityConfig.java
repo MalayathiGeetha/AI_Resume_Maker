@@ -55,7 +55,7 @@ public class SecurityConfig {
 
                 // Public endpoints
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/**","/api/user/me", "/api/v1/resume/generate").permitAll()
+                        .requestMatchers("/api/auth/**","/api/user/me", "/api/v1/resume/**").permitAll()
                         .anyRequest().authenticated()
                 )
 

@@ -26,7 +26,7 @@ public class ResumeController {
             @RequestBody ResumeRequest resumeRequest
     ) throws IOException {
 
-        Map<String, Object> stringObjectMap = resumeService.generateResumeResponse(resumeRequest.getUserDescription(),resumeRequest.getTemplate());
+        Map<String, Object> stringObjectMap = resumeService.generateResumeResponse(resumeRequest.getUserDescription(),resumeRequest.getTemplate(), resumeRequest.getJobRole());
         return new ResponseEntity<>(stringObjectMap, HttpStatus.OK);
 
     }

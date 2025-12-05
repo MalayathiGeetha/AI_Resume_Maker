@@ -7,4 +7,5 @@ import lombok.Data;
 public class ResumeRequest {
     private String userDescription;
     private String template;  // NEW FIELD
+    private String jobRole;
 }

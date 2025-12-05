@@ -4,5 +4,5 @@ import java.io.IOException;
 import java.util.Map;
 
 public interface ResumeService {
-    Map<String, Object> generateResumeResponse(String userResumeDescription, String template) throws IOException;
+    Map<String, Object> generateResumeResponse(String userResumeDescription, String template, String jobRole) throws IOException;
 }

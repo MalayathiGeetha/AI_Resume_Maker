@@ -22,7 +22,7 @@ I have certifications in AWS Cloud Practitioner and Spring Boot Microservices. I
 Email: ankitsharma.dev@gmail.com
 Phone: 9001234567
 Location: Bangalore, India
-GitHub: github.com/ankitsharma-dev
+GitHub: https://github.com/ankitsharma-dev
 LinkedIn: linkedin.com/in/ankit-sharma-tech
-Portfolio: ankitsharma.dev
+Portfolio: https://ankitsharma.dev
 */

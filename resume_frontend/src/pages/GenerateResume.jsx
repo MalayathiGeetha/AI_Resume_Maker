@@ -6,6 +6,9 @@ import { BiBook } from "react-icons/bi";
 import { useForm, useFieldArray } from "react-hook-form";
 import { FaPlusCircle } from "react-icons/fa";
 import Resume from "../components/Resume";
+import ScoreResume from "../pages/ScoreResume";
+import CoverLetter from "../components/CoverLetter";
+
 
 const GenerateResume = () => {
   const [data, setData] = useState({
@@ -30,6 +33,8 @@ const GenerateResume = () => {
   const [showResumeUI, setShowResumeUI] = useState(false);
   const [showPromptInput, setShowPromptInput] = useState(true);
   const [selectedTemplate, setSelectedTemplate] = useState("template1");
+  const [jobRole, setJobRole] = useState("software_developer");
+
 
 
   const experienceFields = useFieldArray({ control, name: "experience" });
@@ -62,7 +67,8 @@ const GenerateResume = () => {
 
     try {
       setLoading(true);
-      const responseData = await generateResume(description, selectedTemplate);
+      const responseData = await generateResume(description, selectedTemplate,jobRole);
+
 
       console.log(responseData);
       reset(responseData.data);
@@ -279,6 +285,25 @@ const GenerateResume = () => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         ></textarea>
+        
+        
+	      <div className="mb-6">
+		  <label className="block text-lg font-semibold mb-2">Select Job Role</label>
+		  <select
+		    value={jobRole}
+		    onChange={(e) => setJobRole(e.target.value)}
+		    className="select select-bordered w-full bg-base-100"
+		  >
+		    <option value="software_developer">Software Developer</option>
+		    <option value="data_analyst">Data Analyst</option>
+		    <option value="ml_engineer">Machine Learning Engineer</option>
+		    <option value="cloud_devops">Cloud / DevOps Engineer</option>
+		    <option value="product_manager">Product Manager</option>
+		    <option value="uiux_designer">UI/UX Designer</option>
+		  </select>
+	</div>
+
+
         <div className="flex justify-center gap-4">
           <button
             disabled={loading}
@@ -303,6 +328,18 @@ const GenerateResume = () => {
     return (
       <div>
         <Resume data={data} template={selectedTemplate} />
+        <ScoreResume resumeData={data} />
+        
+        <div className="mt-10 w-full max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4 text-center">
+          ✉️ AI Cover Letter Generator
+        </h2>
+
+        <CoverLetter
+          resumeData={data}          // pass generated resume
+          defaultRole={jobRole}      // pass job role selected earlier
+        />
+      </div>
 
 
         <div className="flex mt-5 justify-center gap-2">
